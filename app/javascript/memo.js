@@ -23,7 +23,7 @@ function memo() {
           ${item.content}
           </div>
         </div>`;
-      list.insertAdjacentHTML("afterend", HTML);
+      list.insertAdjacentHTML("afterend", HTML)
       formText.value = "";
     };
     e.preventDefault();
